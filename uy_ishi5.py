@@ -29,12 +29,36 @@
 
 # Ma'lumot turi: dict, if
 
-
+# mahs={'olma':5000,'cola':14000,'choy':10000,'non':3000,'sosiska':13000,'shokolad':7000}
+# b=list(mahs.keys())
+# a=input(f"Qaysi mahsulot kerak {b}:\n")
+# print(f"Sizdan {mahs[a]} so'm")
 
 # 4.Telefon kontaktlari: Telefon kontaktlarini (ism va telefon raqami) saqlovchi dictionary yarating. Foydalanuvchi kontakt kiritganda uni izlab toping yoki qo‘shing.
 
+
+# kont={'Ali':'(94)-364-85-53','Vali':'(33)-725-64-82',"Salim":'(97)-777-77-77'}
+# son=int(input("Nechta kontakt kerak:\n"))
+# for s in range(son):
+#     a=input("Kontakt kiriting:\n")
+#     if a in kont:
+#         print(kont[a])
+#     else:
+#         b=input("Kontakt raqamini kiriting-->(XX)-XXX-XX-XX:\n")
+#         kont[a]=b
+# print(kont)
+
+
 # Ma'lumot turi: dict, if, for
 # 5.O'rtacha bahoni hisoblash: Talabalarning baholari saqlangan dictionary berilgan. Har bir talabaning o'rtacha bahosini hisoblang.
+
+
+bah={'Ali':(5,4,5),'Vali':(3,5,5),'Ravshan':(4,4,5),'Munisa':(4,4,3),'Ahmad':(3,4,3)}
+for a in bah:
+    b=sum(bah[a])//len(bah[a])
+    bah[a]=b
+print(bah)
+
 
 # Ma'lumot turi: dict, for
 # 6.Ovoz berish: Biror bir ovoz berish tizimida ovoz berilgan variantlarni to‘plang va har bir variantning necha marta ovoz olinganligini hisoblang.
