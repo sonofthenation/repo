@@ -28,20 +28,20 @@
 
 
 
-def dec1(s):
-    def daraja(*args,**kwargs):
-        javob=int(s(*args,**kwargs))
-        return javob*javob
-    return daraja
+# def dec1(s):
+#     def daraja(*args,**kwargs):
+#         javob=int(s(*args,**kwargs))
+#         return javob*javob
+#     return daraja
 
-@dec1
-def x(n):
-    return n
+# @dec1
+# def x(n):
+#     return n
 
 
 
-son=int(input("Son kiriting:\n"))
-n=x(son)
-print(x(son))
+# son=int(input("Son kiriting:\n"))
+# n=x(son)
+# print(x(son))
 
 

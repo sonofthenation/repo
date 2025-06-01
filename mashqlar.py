@@ -103,3 +103,64 @@
 
 
 
+# menu={'Osh':25000,"Dimlama":50000,"Qozonkabob":45000,"Shashlik":12000,"Non":5000,"Salat":15000,"Hot-Dog":13000,"Ramyo'n":10000,"Lag'mon":35000}
+# summa=0
+# for i in range(3):
+#     a=input(f"{i+1}-ga nima buyurtma qilasiz:\n")
+#     if a in menu:
+#         summa+=menu[a]
+#     else:
+#         print("Bizda bunday taom yo'q")
+# print(summa)
+
+
+
+# def maxn(x,y):
+#     return max(x,y)
+
+# a=int(input("1-son:\n"))
+# b=int(input("2-son:\n"))
+
+# print(maxn(a,b))
+
+
+
+
+while True:
+    a=int(input("1)Mijoz qo'shish\n2)Tugatish"))
+    if a==1:
+        mijozlar=[]
+
+        def mijozlarf(ism,fam,tyil,tjoy,*args):
+            mijoz={}
+            mijoz["Ismi"]=ism
+            mijoz["Familiyasi"]=fam
+            mijoz["Tug'ilgan yili"]=tyil
+            mijoz["Yoshi"]=2025-tyil
+            mijoz["Tug'ilgan joyi"]=tjoy
+            mijoz["Kontakt info"]=args
+        
+            mijozlar.append(mijoz["Ismi"])
+            return mijozlarf
+        def dic(name):
+            return  
+
+        ism=input("Ismingiz:\n")
+        fam=input("Familiyangiz:\n")
+        tyil=int(input("Tug'ilgan yilingiz:\n"))
+        tjoy=input("Tug'ilgan joyingiz:\n")
+        email=input("E-mailingiz(Enter to skip):\n")
+        tnum=input("Raqamingiz(Enter to skip):\n")
+
+        print(mijozlarf(ism,fam,tyil,tjoy,email,tnum))
+    elif a==2:
+        print(f"Mijozlar:{mijozlar}")
+        b=int(input("1)Mijozni ko'rish\n2)Tugatish"))
+        if b==1:
+            
+
+
+
+
+
+
